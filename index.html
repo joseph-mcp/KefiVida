@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- EDITAR TEXTO: Título en pestaña del navegador y SEO -->
+  <title>KefiVida - Tu dosis diaria de bienestar, fresca y en tu puerta</title>
+  <!-- EDITAR TEXTO: Descripción SEO en buscadores -->
+  <meta name="description" content="KefiVida: Kéfir fermentado artesanalmente por 48 horas. Sin conservantes, 100% natural. Regula tu digestión, mejora tu energía y reduce el estrés de la oficina.">
+  
+  <!-- Open Graph / Social Media Preview -->
+  <meta property="og:title" content="KefiVida - Kéfir de Calidad Artesanal">
+  <meta property="og:description" content="Salud intestinal hecha a mano. Tu dosis diaria de bienestar, fresca y en la puerta de tu casa en Guatemala.">
+  <meta property="og:image" content="./Fotos/Foto KefiVida.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / CINTILLO DE INICIO VERDE -->
+  <header>
+    <div class="container navbar">
+      <a href="#inicio" class="logo" aria-label="KefiVida Inicio">
+        <!-- Logo horizontal blanco oficial -->
+        <img src="./Fotos/Logo Horizontal_Blanco.png" alt="Logo de KefiVida" class="logo-header">
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-menu">
+          <!-- EDITAR TEXTO: Enlaces del menú (3 botones coherentes con el wireframe) -->
+          <li class="nav-item"><a href="#que-es-kefir" class="nav-link">¿Qué es kéfir?</a></li>
+          <li class="nav-item"><a href="#beneficios" class="nav-link">Beneficios</a></li>
+          <li class="nav-item"><a href="https://wa.link/0gh0eg" class="nav-link" target="_blank" rel="noopener">Contáctanos</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <!-- EDITAR TEXTO: Cintillo/Badge pequeño arriba del título -->
+        <span class="badge-small">Salud intestinal hecha a mano</span>
+        
+        <!-- EDITAR TEXTO: Título Principal del Hero -->
+        <h1 class="hero-title">Tu dosis diaria de bienestar, fresca y <span>lista para revitalizarte.</span></h1>
+        
+        <!-- EDITAR TEXTO: Descripción o Subtítulo del Hero -->
+        <p class="hero-desc">Fermentado artesanalmente por 48 horas. Sin conservantes, 100% natural y con el cariño que tu cuerpo merece.</p>
+        
+        <!-- Botón CTA con formato de cápsula celeste e imagen de WhatsApp oficial a la derecha -->
+        <a href="https://wa.link/0gh0eg" class="btn-primary" target="_blank" rel="noopener">
+          <!-- EDITAR TEXTO: Texto del botón principal -->
+          Quiero mi Kefivida
+          <span class="wa-icon-circle">
+            <img src="./Fotos/logo whatsapp.webp" alt="WhatsApp">
+          </span>
+        </a>
+      </div>
+      <div class="hero-image-container">
+        <div class="hero-bg-blob"></div>
+        <div class="hero-img-wrapper">
+          <img src="./Fotos/Foto KefiVida.jpg" alt="Envase de KefiVida fresco" class="hero-product-img">
+          <!-- Mascota flotante -->
+          <img src="./Fotos/Nódulo.png" alt="Mascota KefiVida" class="hero-mascot-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRESS & INTESTINE CONNECTION -->
+  <section class="stress-section section-padding fade-in-section" id="que-es-kefir">
+    <div class="container text-center">
+      <div class="stress-header">
+        <!-- EDITAR TEXTO: Pregunta/Título de Sección de Estrés -->
+        <h2>¿Sabías que el estrés de la oficina se combate desde el estómago?</h2>
+        <!-- EDITAR TEXTO: Descripción de la relación estrés e intestino -->
+        <p>El 90% de la serotonina (la hormona de la felicidad) se produce en tu intestino. Un microbioma sano es tu mejor escudo contra el agotamiento.</p>
+      </div>
+
+      <!-- Brain-Gut Connector Graphic -->
+      <div class="diagram-container">
+        <div class="diagram-node">
+          <!-- Brain / Mind SVG Icon -->
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.43l-1.003.828c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.954.26 1.43l-1.297 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.43l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+          </svg>
+          <!-- EDITAR TEXTO: Nodo Mente -->
+          <span>Mente</span>
+        </div>
+        <div class="diagram-connector">
+          <div class="dotted-line"></div>
+          <div class="pulse-dot"></div>
+        </div>
+        <div class="diagram-node">
+          <!-- Intestines SVG Icon -->
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M3 12h2.25m-.386-6.364 1.591 1.591M12 18.75c-3.728 0-6.75-3.022-6.75-6.75S8.272 5.25 12 5.25 18.75 8.272 18.75 12s-3.022 6.75-6.75 6.75Z"></path>
+          </svg>
+          <!-- EDITAR TEXTO: Nodo Intestino -->
+          <span>Intestino</span>
+        </div>
+      </div>
+
+      <!-- State cards -->
+      <div class="stress-cards">
+        <div class="stress-card">
+          <div class="stress-card-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M3 12h18M6.343 6.343l11.314 11.314M6.343 17.657l11.314-11.314"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Tarjeta 1 - Título -->
+          <h3>Flora en equilibrio</h3>
+          <!-- EDITAR TEXTO: Tarjeta 1 - Descripción -->
+          <p>Recupera las bacterias buenas que el estrés y la mala alimentación eliminan de tu día a día.</p>
+        </div>
+        <div class="stress-card">
+          <div class="stress-card-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Tarjeta 2 - Título -->
+          <h3>Energía Real</h3>
+          <!-- EDITAR TEXTO: Tarjeta 2 - Descripción -->
+          <p>Olvídate de los bajones de fatiga por la tarde. Una nutrición viva que se siente inmediatamente en el cuerpo.</p>
+        </div>
+        <div class="stress-card">
+          <div class="stress-card-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Tarjeta 3 - Título -->
+          <h3>Menos Inflamación</h3>
+          <!-- EDITAR TEXTO: Tarjeta 3 - Descripción -->
+          <p>Dile adiós a la pesadez y a la hinchazón estomacal después de tus comidas en la oficina.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT IS KEFIR & MASCOT -->
+  <section class="about-section section-padding fade-in-section">
+    <div class="container about-grid">
+      <div class="about-image-wrapper">
+        <div class="about-circle-bg">
+          <!-- Mascota con animaciones de entrada, caricia y clic -->
+          <img src="./Fotos/Nódulo.png" alt="El amiguito KefiVida" class="about-mascot-img">
+          <!-- EDITAR TEXTO: Globo de diálogo de la mascota -->
+          <div class="speech-bubble">El amiguito que cambia tu vida</div>
+        </div>
+      </div>
+      <div class="about-content">
+        <!-- EDITAR TEXTO: Título sección informativa -->
+        <h2>¿Qué es el Kéfir y por qué es tan especial?</h2>
+        <!-- EDITAR TEXTO: Párrafo sección informativa -->
+        <p>Más que una bebida, el kéfir es un ecosistema vivo. Es un superalimento fermentado que aporta una concentración de probióticos, bacterias benéficas y levaduras muy superior a la de cualquier yogurt comercial, diseñado para restaurar tu equilibrio interior.</p>
+        
+        <div class="callout-box">
+          <!-- EDITAR TEXTO: Título caja destacada (búlgaros) -->
+          <h4>¿Has escuchado de los famosos "animalitos"?</h4>
+          <!-- EDITAR TEXTO: Contenido caja destacada -->
+          <p>Lo que popularmente conocemos como "animalitos", son en realidad nódulos de búlgaros. No son animales, sino una poderosa matriz natural de probióticos. Nosotros los cuidamos y alimentamos con leche de vaca de la más alta calidad; ellos se encargan de fermentarla para crear la magia del auténtico Kefivida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE SECTION -->
+  <section class="comparison-section section-padding fade-in-section">
+    <div class="container text-center">
+      <!-- EDITAR TEXTO: Título sección comparativa -->
+      <h2>¿Por qué elegir KefiVida?</h2>
+      
+      <div class="table-wrapper">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <!-- EDITAR TEXTO: Encabezados de la tabla -->
+              <th>Característica</th>
+              <th>Comercial</th>
+              <th>KefiVida</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!-- EDITAR TEXTO: Fila Frescura -->
+              <td><strong>Frescura</strong></td>
+              <td>Semanas en estante</td>
+              <td><span class="badge-green">1 o 2 días antes</span></td>
+            </tr>
+            <tr>
+              <!-- EDITAR TEXTO: Fila Ingredientes -->
+              <td><strong>Ingredientes</strong></td>
+              <td>Azúcar y espesantes</td>
+              <td><span class="text-green-bold">100% Naturales</span></td>
+            </tr>
+            <tr>
+              <!-- EDITAR TEXTO: Fila Origen -->
+              <td><strong>Origen</strong></td>
+              <td>Procesamiento industrial</td>
+              <td>Artesanal Local (GT)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Botón CTA con formato de cápsula celeste e imagen de WhatsApp oficial a la derecha -->
+      <a href="https://wa.link/0gh0eg" class="btn-primary" target="_blank" rel="noopener">
+        <!-- EDITAR TEXTO: Texto del botón de la tabla -->
+        Pide tu Kefivida
+        <span class="wa-icon-circle">
+          <img src="./Fotos/logo whatsapp.webp" alt="WhatsApp">
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- BENEFITS GRID -->
+  <section class="benefits-section section-padding fade-in-section" id="beneficios">
+    <div class="container">
+      <!-- EDITAR TEXTO: Título sección de beneficios -->
+      <h2 class="text-center benefits-title">KefiVida me ayuda a:</h2>
+      
+      <div class="benefits-grid">
+        <!-- Benefit 1: Colesterol -->
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Beneficio 1 -->
+          <h3>Regula el colesterol</h3>
+          <p>Mejora tu perfil lipídico de forma completamente natural y efectiva.</p>
+        </div>
+
+        <!-- Benefit 2: Circulación -->
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Beneficio 2 -->
+          <h3>Ayuda a la circulación</h3>
+          <p>Mantiene tu corazón sano para una vida cotidiana mucho más activa.</p>
+        </div>
+
+        <!-- Benefit 3: Estrés y Ansiedad -->
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Beneficio 3 -->
+          <h3>Reduce estrés y ansiedad</h3>
+          <p>Fortalece la conexión biológica directa entre tu intestino y tu cerebro.</p>
+        </div>
+
+        <!-- Benefit 4: Reflujo y Gastritis -->
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Beneficio 4 -->
+          <h3>Combate reflujo y gastritis</h3>
+          <p>Calma y protege el tejido de tu sistema digestivo de forma inmediata.</p>
+        </div>
+
+        <!-- Benefit 5: Hígado Graso -->
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 21l-.813-5.096L3 15l5.187-.813L9 9l.813 5.187L15 15l-5.187.813zM19.071 4.929l-.429 2.679-2.679.429 2.679.429.429 2.679.429-2.679 2.679-.429-2.679-.429-.429-2.679z"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Beneficio 5 -->
+          <h3>Limpia el hígado graso</h3>
+          <p>Promueve una depuración natural y efectiva de los filtros de tu organismo.</p>
+        </div>
+
+        <!-- Benefit 6: Peso -->
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.656 48.656 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3M3 12c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M3 12l3 3m-3-3l-3 3"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Beneficio 6 -->
+          <h3>Pérdida de peso</h3>
+          <p>Consigue un metabolismo activo, mucho más eficiente y equilibrado.</p>
+        </div>
+
+        <!-- Benefit 7: Defensas -->
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Beneficio 7 -->
+          <h3>Refuerza las defensas</h3>
+          <p>Potencia tu sistema inmunológico cada día a través de probióticos reales.</p>
+        </div>
+
+        <!-- Benefit 8: Huesos -->
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+            </svg>
+          </div>
+          <!-- EDITAR TEXTO: Beneficio 8 -->
+          <h3>Fortalece los huesos</h3>
+          <p>Mejora significativamente la absorción de calcio y minerales esenciales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS SECTION -->
+  <section class="how-section section-padding fade-in-section" id="como-funciona">
+    <div class="container text-center">
+      <!-- EDITAR TEXTO: Título de cómo funciona -->
+      <h2>¿Cómo funciona?</h2>
+      
+      <div class="how-steps">
+        <div class="how-step">
+          <!-- Círculo que contiene la nueva imagen oficial de Pedido por WhatsApp -->
+          <div class="how-icon-wrapper">
+            <img src="./Fotos/Icono_Pedido por whatsapp.png" alt="Icono de pedido por WhatsApp" class="how-step-icon">
+          </div>
+          <!-- EDITAR TEXTO: Paso 1 -->
+          <h3>1. Pide tu KefiVida</h3>
+          <p>Contáctanos vía WhatsApp y selecciona tu tiempo de fermentación ideal (24 o 48 horas).</p>
+        </div>
+
+        <div class="how-step">
+          <!-- Círculo que contiene la nueva imagen oficial de Preparación -->
+          <div class="how-icon-wrapper">
+            <img src="./Fotos/Icono_Preparación.png" alt="Icono de preparación" class="how-step-icon">
+          </div>
+          <!-- EDITAR TEXTO: Paso 2 (Corregido ortográficamente) -->
+          <h3>2. Lo criamos y fermentamos</h3>
+          <p>Preparamos tu bebida a mano y bajo pedido, asegurando un proceso natural y cuidadosamente controlado.</p>
+        </div>
+
+        <div class="how-step">
+          <!-- Círculo que contiene la nueva imagen oficial de Delivery -->
+          <div class="how-icon-wrapper">
+            <img src="./Fotos/Icono_Delivery.png" alt="Icono de delivery" class="how-step-icon">
+          </div>
+          <!-- EDITAR TEXTO: Paso 3 (Corregido ortográficamente) -->
+          <h3>3. Entrega a domicilio</h3>
+          <p>Llevamos el bienestar hasta ti. Validaremos tu ubicación por WhatsApp para confirmarte la cobertura y el costo de envío.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA RETO 14 DIAS -->
+  <section class="cta-section container fade-in-section">
+    <div class="cta-box">
+      <!-- EDITAR TEXTO: Título del reto -->
+      <h2>Reto 14 Días</h2>
+      <!-- EDITAR TEXTO: Subtítulo del reto -->
+      <p>¿Estás listo para sentir la diferencia real? Únete a cientos de personas que ya transformaron su digestión y energía estomacal.</p>
+      
+      <!-- Botón CTA con formato de cápsula celeste e imagen de WhatsApp oficial a la derecha -->
+      <a href="https://wa.link/0gh0eg" class="btn-primary" target="_blank" rel="noopener">
+        <!-- EDITAR TEXTO: Texto del botón del reto -->
+        ¡únete al reto!
+        <span class="wa-icon-circle">
+          <img src="./Fotos/logo whatsapp.webp" alt="WhatsApp">
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.link/0gh0eg" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Enviar mensaje por WhatsApp">
+    <img src="./Fotos/logo whatsapp.webp" alt="WhatsApp">
+  </a>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#inicio" aria-label="KefiVida Logo Footer">
+          <!-- Logo horizontal verde original oficial -->
+          <img src="./Fotos/Logo Horizontal.png" alt="Logo de KefiVida" class="footer-logo">
+        </a>
+        <p>&copy; 2026 KefiVida, hecho a mano con amor.</p>
+      </div>
+      <nav aria-label="Enlaces secundarios y legales">
+        <ul class="footer-menu">
+          <li><a href="#" class="footer-link">PRIVACY POLICY</a></li>
+          <li><a href="#" class="footer-link">TERMS OF SERVICE</a></li>
+          <li><a href="https://wa.link/0gh0eg" class="footer-link" target="_blank" rel="noopener">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="app.js"></script>
+</body>
+</html>
