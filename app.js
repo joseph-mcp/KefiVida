@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
     avena: {
       title: "Avena Nocturna con Kéfir y Chía",
       category: "☀️ En Ayunas",
-      image: "./Fotos/receta_avena.png",
+      image: "./Fotos/original_receta_avena.png",
       ingredients: [
         "1/2 taza de avena integral en hojuelas",
         "1/2 taza de KefiVida Original",
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     batido: {
       title: "Batido Energético de Plátano y Avena",
       category: "🏃‍♂️ Pre-Entreno",
-      image: "./Fotos/receta_batido.png",
+      image: "./Fotos/original_receta_batido.png",
       ingredients: [
         "1 taza de KefiVida Original",
         "1 plátano maduro",
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
     smoothie: {
       title: "Smoothie Verde de Kéfir y Espinacas",
       category: "🔋 Post-Entreno",
-      image: "./Fotos/receta_smoothie.png",
+      image: "./Fotos/original_receta_smoothie.png",
       ingredients: [
         "1 taza de KefiVida Original",
         "1 puñado de espinacas tiernas frescas",
@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
     panqueques: {
       title: "Panqueques Esponjosos de Kéfir",
       category: "🥞 Desayuno",
-      image: "./Fotos/receta_panqueques.png",
+      image: "./Fotos/original_receta_panqueques.png",
       ingredients: [
         "1 taza de harina de avena (o de trigo)",
         "1 taza de KefiVida Original",
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ensalada: {
       title: "Ensalada Fresca con Aderezo de Kéfir",
       category: "🥗 Almuerzo / Cena",
-      image: "./Fotos/receta_ensalada.png",
+      image: "./Fotos/original_receta_ensalada.png",
       ingredients: [
         "Hojas variadas de lechuga y espinaca fresca",
         "Tomates cherry partidos a la mitad y pepino en rodajas",
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
     crema_aguacate: {
       title: "Crema Untable de Kéfir y Aguacate",
       category: "🥑 Snack / Dip",
-      image: "./Fotos/receta_crema_aguacate.png",
+      image: "./Fotos/original_receta_crema_aguacate.png",
       ingredients: [
         "1 aguacate maduro grande",
         "1/2 taza de KefiVida Original",
