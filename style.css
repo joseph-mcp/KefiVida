@@ -1513,6 +1513,7 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: left bottom; /* Preserva el logo al recortar la imagen en el visor detallado */
 }
 
 .recipe-detail-content {
