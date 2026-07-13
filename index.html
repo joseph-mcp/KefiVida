@@ -28,9 +28,9 @@
       </a>
       <nav aria-label="Navegación principal">
         <ul class="nav-menu">
-          <!-- EDITAR TEXTO: Enlaces del menú (3 botones coherentes con el wireframe) -->
           <li class="nav-item"><a href="#que-es-kefir" class="nav-link">¿Qué es kéfir?</a></li>
           <li class="nav-item"><a href="#beneficios" class="nav-link">Beneficios</a></li>
+          <li class="nav-item"><a href="./recetas.html" class="nav-link">Recetas</a></li>
           <li class="nav-item"><a href="https://wa.link/0gh0eg" class="nav-link" target="_blank" rel="noopener">Contáctanos</a></li>
         </ul>
       </nav>
@@ -42,36 +42,86 @@
     </div>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero" id="inicio">
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <!-- EDITAR TEXTO: Cintillo/Badge pequeño arriba del título -->
-        <span class="badge-small">Salud intestinal hecha a mano</span>
-        
-        <!-- EDITAR TEXTO: Título Principal del Hero -->
-        <h1 class="hero-title">Tu dosis diaria de bienestar, fresca y <span>lista para revitalizarte.</span></h1>
-        
-        <!-- EDITAR TEXTO: Descripción o Subtítulo del Hero -->
-        <p class="hero-desc">Fermentado artesanalmente por 48 horas. Sin conservantes, 100% natural y con el cariño que tu cuerpo merece.</p>
-        
-        <!-- Botón CTA con formato de cápsula celeste e imagen de WhatsApp oficial a la derecha -->
-        <a href="https://wa.link/0gh0eg" class="btn-primary" target="_blank" rel="noopener">
-          <!-- EDITAR TEXTO: Texto del botón principal -->
-          Quiero mi Kefivida
-          <span class="wa-icon-circle">
-            <img src="./Fotos/logo whatsapp.webp" alt="WhatsApp">
-          </span>
-        </a>
-      </div>
-      <div class="hero-image-container">
-        <div class="hero-bg-blob"></div>
-        <div class="hero-img-wrapper">
-          <img src="./Fotos/Foto KefiVida.jpg" alt="Envase de KefiVida fresco" class="hero-product-img">
-          <!-- Mascota flotante -->
-          <img src="./Fotos/Nódulo.png" alt="Mascota KefiVida" class="hero-mascot-img">
+  <!-- HERO SECTION CON CARRUSEL -->
+  <section class="hero-carousel-container" id="inicio">
+    <div class="hero-carousel">
+      <!-- SLIDE 1: Original Hero (Tu dosis diaria de bienestar) -->
+      <div class="hero-slide active" data-slide="0">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <!-- EDITAR TEXTO: Cintillo/Badge pequeño arriba del título -->
+            <span class="badge-small">Salud intestinal hecha a mano</span>
+            
+            <!-- EDITAR TEXTO: Título Principal del Hero -->
+            <h1 class="hero-title">Tu dosis diaria de bienestar, fresca y <span>lista para revitalizarte.</span></h1>
+            
+            <!-- EDITAR TEXTO: Descripción o Subtítulo del Hero -->
+            <p class="hero-desc">Fermentado artesanalmente por 48 horas. Sin conservantes, 100% natural y con el cariño que tu cuerpo merece.</p>
+            
+            <!-- Botón CTA con formato de cápsula celeste e imagen de WhatsApp oficial a la derecha -->
+            <a href="https://wa.link/0gh0eg" class="btn-primary" target="_blank" rel="noopener">
+              Quiero mi KefiVida
+              <span class="wa-icon-circle">
+                <img src="./Fotos/logo whatsapp.webp" alt="WhatsApp">
+              </span>
+            </a>
+          </div>
+          <div class="hero-image-container">
+            <div class="hero-bg-blob"></div>
+            <div class="hero-img-wrapper">
+              <!-- Nueva foto oficial cargada por el usuario -->
+              <img src="./Fotos/Tu mejor amigo KefiVida.jpg" alt="Envase de KefiVida fresco" class="hero-product-img">
+              <!-- Mascota flotante -->
+              <img src="./Fotos/Nódulo.png" alt="Mascota KefiVida" class="hero-mascot-img">
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- SLIDE 2: Receta Destacada (Batido Energético) -->
+      <div class="hero-slide" data-slide="1">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <span class="badge-small">Receta Destacada</span>
+            
+            <h2 class="hero-title" style="font-size: 2.8rem; margin: 0 0 1rem; line-height: 1.2;">Batido Energético de <span>Plátano y Avena</span></h2>
+            
+            <p class="hero-desc">El impulso perfecto para tu pre-entrenamiento. Prepáralo en 3 minutos mezclando avena, plátano y el poder probiótico de tu KefiVida.</p>
+            
+            <a href="./recetas.html" class="btn-primary">
+              Ver Receta Destacada
+              <span class="wa-icon-circle" style="background-color: #00B2EC; display: flex; align-items: center; justify-content: center;">
+                <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 16px; height: 16px; color: white;">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div class="hero-image-container">
+            <div class="hero-bg-blob" style="background: radial-gradient(circle, rgba(142,183,79,0.3) 0%, rgba(255,255,255,0) 70%);"></div>
+            <div class="hero-img-wrapper">
+              <img src="./Fotos/receta_batido.png" alt="Batido de Kéfir, Plátano y Avena" class="hero-product-img" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); object-fit: cover;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controles del carrusel (Flechas y Dots) -->
+    <button class="carousel-arrow prev" aria-label="Anterior diapositiva" type="button">
+      <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"></path>
+      </svg>
+    </button>
+    <button class="carousel-arrow next" aria-label="Siguiente diapositiva" type="button">
+      <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+      </svg>
+    </button>
+
+    <div class="carousel-dots">
+      <button class="dot active" data-slide="0" aria-label="Ir a diapositiva 1"></button>
+      <button class="dot" data-slide="1" aria-label="Ir a diapositiva 2"></button>
     </div>
   </section>
 
