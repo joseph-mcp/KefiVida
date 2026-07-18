@@ -444,5 +444,33 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   }
+
+  // ==========================================================================
+  // BENEFITS TABS SELECTION LOGIC (General vs 24h vs 48h)
+  // ==========================================================================
+  const tabButtons = document.querySelectorAll('.benefits-tab-btn');
+  const benefitsGrids = document.querySelectorAll('.benefits-grid');
+
+  if (tabButtons.length > 0 && benefitsGrids.length > 0) {
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const targetTab = button.getAttribute('data-tab');
+
+        // Deactivate other buttons and activate clicked button
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        // Toggle active grids
+        benefitsGrids.forEach(grid => {
+          const gridId = grid.getAttribute('id');
+          if (gridId === `benefits-${targetTab}`) {
+            grid.classList.add('active');
+          } else {
+            grid.classList.remove('active');
+          }
+        });
+      });
+    });
+  }
 });
 
